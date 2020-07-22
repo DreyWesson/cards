@@ -12,8 +12,14 @@
     <link rel="stylesheet" href="/fontawesome/css/all.css" />
     <title>Document</title>
     <style>
-      img {
-        transform: translateY(-40%);
+      .card-body .img-container {
+        height: 95px;
+        transform: translateY(-70%);
+      }
+      .card-body img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
       }
       i {
         font-size: 18px;
@@ -41,12 +47,14 @@
           <div class="col-lg-3 col-md-6 my-5">
             <div class="card shadow-lg">
               <div class="card-body">
-                <img
-                  src="https://source.unsplash.com/600x400/?avatar,face"
-                  alt=""
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 140px; height: 140px; object-fit: cover;"
-                />
+                <div class="img-container">
+                  <img
+                    src="https://source.unsplash.com/600x400/?avatar,face"
+                    alt=""
+                    class="img-fluid rounded-circle mb-3"
+                  />
+                </div>
+
                 <h3 class="position:relative; top:-10px;">Susan Pitt</h3>
                 <h5>Lead Writer</h5>
                 <p>
@@ -77,12 +85,14 @@
           <div class="col-lg-3 col-md-6 my-5">
             <div class="card shadow-lg">
               <div class="card-body">
-                <img
-                  src="https://source.unsplash.com/600x400/?random,person"
-                  alt=""
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 140px; height: 140px; object-fit: cover;"
-                />
+                <div class="img-container">
+                  <img
+                    src="https://source.unsplash.com/600x400/?random,person"
+                    alt=""
+                    class="img-fluid rounded-circle mb-3"
+                  />
+                </div>
+
                 <h3>Dave Wood</h3>
                 <h5>Frontend</h5>
                 <p>
@@ -113,17 +123,14 @@
           <div class="col-lg-3 col-md-6 my-5">
             <div class="card shadow-lg">
               <div class="card-body">
-                <img
-                  src="https://source.unsplash.com/600x400/?random,profile"
-                  alt=""
-                  class="img-fluid rounded-circle mb-3"
-                  style="
-                    width: 140px;
-                    height: 140px;
-                    object-fit: cover;
-                    margin-bottom: 0;
-                  "
-                />
+                <div class="img-container">
+                  <img
+                    src="https://source.unsplash.com/600x400/?random,profile"
+                    alt=""
+                    class="img-fluid rounded-circle mb-3"
+                  />
+                </div>
+
                 <h3>Jessica Lile</h3>
                 <h5>Backend</h5>
                 <p>
@@ -154,12 +161,14 @@
           <div class="col-lg-3 col-md-6 my-5">
             <div class="card shadow-lg">
               <div class="card-body">
-                <img
-                  src="https://source.unsplash.com/600x400/?random,face"
-                  alt=""
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 140px; height: 140px; object-fit: cover;"
-                />
+                <div class="img-container">
+                  <img
+                    src="https://source.unsplash.com/600x400/?random,face"
+                    alt=""
+                    class="img-fluid rounded-circle mb-3"
+                  />
+                </div>
+
                 <h3>Smith Ken</h3>
                 <h5>Fullstack</h5>
                 <p>
