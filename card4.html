@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="/fontawesome/css/all.css" />
     <title>Document</title>
+    <style>
+      img {
+        transform: translateY(-40%);
+      }
+      i {
+        font-size: 18px;
+      }
+      .card {
+        transition: all 0.3s ease-in;
+      }
+    </style>
   </head>
   <body>
     <div id="team">
@@ -18,7 +29,7 @@
         <div class="row mb-5">
           <div class="col">
             <h1>Our Team</h1>
-            <p class="mt-3">
+            <p class="mt-3 mx-auto" style="max-width: 75ch;">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
               praesentium quibusdam provident eveniet similique corrupti fugiat
               vero possimus assumenda iusto?
@@ -26,13 +37,51 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
+          <!-- Card 1 -->
+          <div class="col-lg-3 col-md-6 my-5">
+            <div class="card shadow-lg">
               <div class="card-body">
                 <img
                   src="https://source.unsplash.com/600x400/?avatar,face"
                   alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
+                  class="img-fluid rounded-circle mb-3"
+                  style="width: 140px; height: 140px; object-fit: cover;"
+                />
+                <h3 class="position:relative; top:-10px;">Susan Pitt</h3>
+                <h5>Lead Writer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  soluta, voluptas nam ad dolores, debitis voluptates, non vero
+                  consequuntur necessitatibus explicabo cupiditate possimus
+                  quaerat eius autem? Illo quos id magnam?
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-slack-hash"></i></a>
+                  </div>
+
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-3 col-md-6 my-5">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <img
+                  src="https://source.unsplash.com/600x400/?random,person"
+                  alt=""
+                  class="img-fluid rounded-circle mb-3"
+                  style="width: 140px; height: 140px; object-fit: cover;"
                 />
                 <h3>Susan Pitt</h3>
                 <h5>Lead Writer</h5>
@@ -44,9 +93,93 @@
                 </p>
                 <div class="d-flex flex-row justify-content-center">
                   <div class="p-4">
-                    <a href="#"><i class="fab fa-slack-hash"></i></a>
                     <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-slack-hash"></i></a>
+                  </div>
+
+                  <div class="p-4">
                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-lg-3 col-md-6 my-5">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <img
+                  src="https://source.unsplash.com/600x400/?random,profile"
+                  alt=""
+                  class="img-fluid rounded-circle mb-3"
+                  style="
+                    width: 140px;
+                    height: 140px;
+                    object-fit: cover;
+                    margin-bottom: 0;
+                  "
+                />
+                <h3>Susan Pitt</h3>
+                <h5>Lead Writer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  soluta, voluptas nam ad dolores, debitis voluptates, non vero
+                  consequuntur necessitatibus explicabo cupiditate possimus
+                  quaerat eius autem? Illo quos id magnam?
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-slack-hash"></i></a>
+                  </div>
+
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-lg-3 col-md-6 my-5">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <img
+                  src="https://source.unsplash.com/600x400/?random,face"
+                  alt=""
+                  class="img-fluid rounded-circle mb-3"
+                  style="width: 140px; height: 140px; object-fit: cover;"
+                />
+                <h3>Susan Pitt</h3>
+                <h5>Lead Writer</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  soluta, voluptas nam ad dolores, debitis voluptates, non vero
+                  consequuntur necessitatibus explicabo cupiditate possimus
+                  quaerat eius autem? Illo quos id magnam?
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-slack-hash"></i></a>
+                  </div>
+
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                   </div>
                 </div>
